@@ -1,0 +1,62 @@
+.timeline2 {
+    position: absolute;
+
+    inset: 0;
+
+    overflow: hidden;
+
+    pointer-events: none;
+}
+
+/*
+=========================
+IMAGES
+=========================
+*/
+
+.timeline2-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+    width: auto;
+    height: 1000px;
+    object-fit: cover;
+
+    opacity: 0;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.15);
+}
+
+/*
+=========================
+TEXT
+=========================
+*/
+
+.timeline2-text {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+
+    gap: 20px;
+
+    z-index: 10;
+}
+
+.normal-word {
+    color: white;
+
+    font-size: 50px;
+
+    font-weight: 600;
+
+    opacity: 0;
+
+    text-shadow:
+        0 0 20px rgba(0, 0, 0, 0.8);
+}

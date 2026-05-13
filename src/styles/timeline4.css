@@ -1,0 +1,89 @@
+.timeline4 {
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    pointer-events: none;
+}
+
+/*
+=========================
+IMAGE
+=========================
+*/
+
+.timeline4-image {
+    position: absolute;
+
+    width: 450px;
+    height: 550px;
+
+    object-fit: cover;
+
+
+    opacity: 0;
+
+    transform: scale(1.3);
+
+    /* box-shadow:
+        0 0 40px rgba(255, 255, 255, 0.15); */
+
+    border: 9px solid rgb(0, 0, 0);
+
+    /*
+    optional biar lebih anime edit
+    */
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 0 0 3px rgba(255, 255, 255, 0.15),
+        0 0 40px rgba(255, 255, 255, 0.15);
+}
+
+/*
+=========================
+TEXT
+=========================
+*/
+
+.timeline4-text {
+    position: absolute;
+
+    z-index: 10;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.timeline4-word {
+    color: rgb(0, 0, 0);
+
+    font-size: 50px;
+
+    font-weight: 900;
+
+    line-height: 0.9;
+
+    opacity: 0;
+
+    transform: translateY(100px);
+
+    text-shadow:
+        0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+.timeline4-word {
+    position: absolute;
+
+    top: 350px;
+}
